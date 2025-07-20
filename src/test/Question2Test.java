@@ -24,8 +24,8 @@ public class Question2Test {
     }
 
     @Test
-    public void testDuplicateNumbers() {
-        int[] nums = {1, 1, 2, 2, 3};
-        assertEquals(2, Question2_UniqueSums.uniqueSums(4, nums));
+    public void testAllDuplicates() {
+        int[] nums = {2, 2, 2, 2};
+        assertEquals(1, Question2_UniqueSums.uniqueSums(4, nums));
     }
 }
