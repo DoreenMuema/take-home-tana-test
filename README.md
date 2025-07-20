@@ -34,6 +34,15 @@
 - **How it works**: Adjusts pointers to reposition the tail and head of the list.
 
 ## How to Run the Code
-1. Compile the Java files:
+
+### For IntelliJ IDEA (Recommended)
+1 .**Run the Code**:
+   - Right-click `Main.java` in the project explorer.
+   - Select **Run 'Main.main()'** to execute all solutions at once.
+   - To run a specific question, right-click its test case in `Main.java` (e.g., `runQuestion1()`) and choose **Run**.
+
+### For Command Line (General)
+1. **Compile**:  
+   Navigate to the project directory (where `Main.java` is located) and run:
    ```bash
    javac Main.java
